@@ -1,8 +1,15 @@
-def add(a,b):
-    return a+b
+def add(num1, num2):
+    return num1 + num2
 
 
-a = 10
-b = 20
-ans = add(a,b)
-print(f"Addition of {a} and {b} is {ans}")
+def sub(num1, num2):
+    return num1 - num2
+
+
+no1 = 20
+no2 = 10
+ans = add(no1, no2)
+print(f"Addition of {no1} and {no2} is {ans}")
+
+ans = sub(no1, no2)
+print(f"Subtraction of {no1} and {no2} is {ans}")
